@@ -2,7 +2,7 @@
 title: "Zoey Hashemi - Interactive Media Designer"
 description: "The portfolio of Zoey Hashemi, showcasing design, creativity, and interactive media projects."
 author: "Admin"
-baseurl: "Interaction-designer-portfolio" # Base URL for the site when deployed
+baseurl: "" # Base URL for the site when deployed
 url: "" # Replace with your domain when deployed
 date_format: "%d %B %Y"
 # Social Links (replace these with your actual links)
