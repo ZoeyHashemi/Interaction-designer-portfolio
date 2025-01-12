@@ -1,0 +1,5 @@
+echo ".DS_Store" >> .gitignore
+echo ".history/" >> .gitignore
+git rm --cached -r .DS_Store .history
+git add .gitignore
+git commit -m "Update .gitignore to exclude unnecessary files"
