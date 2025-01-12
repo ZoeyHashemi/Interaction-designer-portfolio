@@ -1,0 +1,245 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  image: "assets/img/profile2.png"
+  image_alt: "Zoey Hashemi"
+  title: "<b>Zoey</b> Hashemi"
+  before_title: "Hello, <b>my name is</b>"
+  after_title: "I am <strong>Interactive Media Designer</strong>"
+  description: "From Ottawa, Canada. I have rich experience in Graphic design, also I am good at Web Design. I love to talk with you about My unique."
+  button1:
+    label: "Download CV"
+    link: "/assets/documents/Zoey Hashemi-CV.pdf"
+  button2:
+    label: "My Skills"
+    link: "#skills-section"
+  bg_title: "Interactive Media Designer"
+  info:
+    - num: "3 <strong>+</strong>"
+      value: "Years of <strong>Experience</strong>"
+
+    - num: "42"
+      value: "Completed <strong>Projects</strong>"
+
+### Services [ services ]
+services:
+  title: "What I Do"
+  subtitle: "my <b>Services</b>"
+  bg_title: "Services"
+
+  items:
+  - title: "Responsive Web Design"
+    subtitle: "Web Development"
+    text: "Design and develop visually appealing, user-friendly websites tailored to meet client needs. Specializing in responsive layouts and optimized interfaces for a seamless experience across devices."
+    button_label: "See Pricing"
+    button_link: "#pricing-section"
+
+  - title: "Mobile App Design"
+    subtitle: "UI/UX for iOS & Android"
+    text: "Create intuitive and modern app interfaces for iOS and Android platforms. Focused on enhancing user engagement through strategic design and seamless navigation."
+    button_label: "See Pricing"
+    button_link: "#pricing-section"
+
+  - title: "Interactive Media Projects"
+    subtitle: "Interactive Design"
+    text: "Develop interactive solutions like e-learning modules, digital storytelling, and multimedia experiences. Combining creativity and functionality to deliver impactful results."
+    button_label: "View Portfolio"
+    button_link: "#portfolio-section"
+
+  - title: "Digital Branding"
+    subtitle: "Logo & Visual Identity"
+    text: "Craft professional logos and cohesive brand identities for businesses and individuals. Delivering a strong, memorable visual presence tailored to client goals."
+    button_label: "See Pricing"
+    button_link: "#pricing-section"
+
+  - title: "Motion Graphics"
+    subtitle: "Video & Animation"
+    text: "Design engaging animations, explainer videos, and motion graphics to enhance storytelling and communication across digital platforms."
+    button_label: "See Pricing"
+    button_link: "#pricing-section"
+
+  - title: "Audio Editing & Podcasts"
+    subtitle: "Sound Design"
+    text: "Provide professional audio editing and sound design for podcasts, videos, and multimedia projects. Elevating content quality with clear, polished sound."
+    button_label: "See Pricing"
+    button_link: "#pricing-section"
+
+### Skills [ skills ]
+skills:
+  title: "Professional Skills"
+  subtitle: "my <b>Skills</b>"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "HTML & CSS" #0-10 progress in dots
+        text: "Proficient in crafting responsive and accessible web layouts using flexbox and grid, ensuring consistency across all devices."
+        value: "95" #0-100 progress in %
+
+      - label: "JavaScript" #0-10 progress in dots
+        text: "Experienced in creating dynamic and interactive web applications using modern ES6+ JavaScript."
+        value: "85" #0-100 progress in %
+
+  column2:
+    items:
+      - label: "React & Vue" #0-10 progress in dots
+        text: "Skilled in building reusable components and dynamic applications with React and Vue for seamless user experiences."
+        value: "75" #0-100 progress in %
+
+      - label: "Adobe Creative Suite" #0-10 progress in dots
+        text: " Advanced skills in Photoshop, Illustrator, Indesign and After Effects for branding and graphic design."
+        value: "95" #0-100 progress in %
+
+  column3:
+    items:
+      - label: "WordPress Development" #0-10 progress in dots
+        text: "Expertise in customizing themes, improving accessibility, and developing WordPress websites with custom plugins."
+        value: "80" #0-100 progress in %
+
+      - label: "Figma & Sketch" #0-10 progress in dots
+        text: "Highly skilled in designing interactive wireframes, detailed prototypes, and mockup design for web and mobile platforms."
+        value: "95" #0-100 progress in %
+
+### Resume [ resume ]
+resume:
+  title: "Resume"
+  subtitle: "my <b>Story</b>"
+  bg_title: "History"
+
+  education:
+    title: "Education"
+    items:
+      - name: "Interactive Media Design-Diploma"
+        subname: "Algonquin College"
+        period: "2022 - 2024"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      - name: "Persian Language& Literature-PH.D"
+        subname: "Ferdowsi University of Mashhad"
+        period: "2008 - 2013"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      
+  experience:
+    title: "Experience"
+    items:
+      - name: "Digital Asset Coordinator"
+        subname: "Sinders Bridal House"
+        period: "01/2024 - <b>08/2024</b>"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      - name: "Assistance Professor"
+        subname: "Kosar University of Bojnord"
+        period: "02/2016 - 09/2017"
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      
+
+
+
+### Pricing [ pricing ]
+pricing:
+  title: "Pricing"
+  subtitle: "my <b>Price Board</b>"
+  bg_title: "Pricing"
+
+  items:
+    - name: "Hourly Basis"
+      center: false
+      price: "50 <b>$</b>"
+      price_after: "Hour"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Website Design"
+          included: true
+        - value: "Mobile Apps Design"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Video Editing"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Freelancing"
+      center: true
+      label: "Popular"
+      price: "400 <b>$</b>"
+      price_after: "Week"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Website Design"
+          included: true
+        - value: "Mobile Apps Design"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Video Editing"
+          included: false
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Full Time"
+      center: false
+      price: "5500 <b>$</b>"
+      price_after: "Month"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Website Design"
+          included: true
+        - value: "Mobile Apps Design"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Video Editing"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+
+
+### Contact [ contacts ]
+contacts:
+  title: "Contact Me"
+  subtitle: "Let’s <b>Talk About Ideas</b>"
+  bg_title: "Contact Me"
+
+  list:
+    - label: "Address"
+      icon: "far fa-map"
+      text: "Ottawa, Ontario, Canada"
+
+    - label: "Freelance"
+      icon: "far fa-user"
+      text: "Available Right Now"
+
+    - label: "Email"
+      icon: "far fa-envelope"
+      text: "hash0169@algonquinlive.com"
+
+    - label: "Phone"
+      icon: "far fa-address-book"
+      text: "+1 613 - 678 - 0682"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "Portfolio"
+  subtitle: "my <b>Cases</b>"
+  bg_title: "Portfolio"
+  button:
+    link: "works/"
+    label: "View More"

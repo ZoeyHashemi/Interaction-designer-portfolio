@@ -1,0 +1,123 @@
+# Site Settings
+title: "Zoey Hashemi - Interactive Media Designer"
+description: "The portfolio of Zoey Hashemi, showcasing design, creativity, and interactive media projects."
+author: "Admin"
+baseurl: "" # Base URL for the site when deployed
+url: "" # Replace with your domain when deployed
+date_format: "%d %B %Y"
+# Social Links (replace these with your actual links)
+social_links:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/zohreh-hashemi/"
+    icon: "fab fa-linkedin"
+  - name: "GitHub"
+    url: "https://github.com/ZoeyHashemi"
+    icon: "fab fa-github"
+  - name: "Dribbble"
+    url: "https://dribbble.com/zoey-hash"
+    icon: "fab fa-dribbble"
+
+# Navigation Menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Portfolio"
+    url: "/works/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
+
+# UI Text Configuration
+ui_text:
+  home:                 "Home"
+  portfolio:            "Portfolio"
+  about:                "About Me"
+  contact:              "Contact"
+  works_subtitle:       "My <b>Projects</b>"
+  works_bg_title:       "Portfolio"
+  see_project:          "View Project"
+  full_name:            "Zoey Hashemi"
+  your_full_name:       "Zoey Hashemi"
+  email_address:        "hash0169@algonquinlive.com"
+  your_email_address:   "hash0169@algonquinlive.com"
+  your_subject:         "Your Subject"
+  message:              "Message"
+  your_message:         "Type your message here"
+  send_message:         "Send Message"
+  accept_terms:         "* Accept the terms and conditions."
+  thanks_message:       "Thank you, your message has been sent successfully."
+  see-portfolio:        "/#works-section"
+
+
+
+# Pagination (if needed for a portfolio gallery)
+paginate: 6
+paginate_path: "/blog/page:num/"
+permalink: pretty
+
+# Author Information
+author:
+  name: "Zoey Hashemi"
+  description: "An Interactive Media Designer passionate about creating meaningful designs and interactive experiences."
+  avatar: "/assets/images/zoey.jpg" 
+  email: "hash0169@algonquinlive.com" 
+
+# disqus comments
+disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
+disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+# formsubmit.io
+formspree_endpoint: "https://formspree.io/f/your_endpoint" # sign up on https://formspree.io/ and create your form endpoint
+
+# collections
+collections:
+  works:
+    output: true
+    permalink: /:collection/:name
+
+
+# archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Build settings
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# # Defaults
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "default"
+
+# Exclude Unnecessary Files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - test/
+  - .history
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+
+
+sass:
+  style: compressed
+
+markdown:  kramdown

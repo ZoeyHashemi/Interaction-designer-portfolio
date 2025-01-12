@@ -1,0 +1,54 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+settings:
+  skin: "light" # select initial skin option: "light" or "dark"
+
+### Preloader
+preloader:
+  logo:
+    image: "assets/img/logo2.png"
+    alt: "Zoey Hashemi"
+
+### Header
+header:
+  logo:
+    image: "assets/img/logo2.png"
+    alt: "Zoey Hashemi"
+
+### Social
+social:
+  - title: "Linkedin"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/zohreh-hashemi/"
+
+  - title: "Dribbble"
+    icon: "fab fa-dribbble"
+    url: "https://dribbble.com/zoey-hash"
+
+  - title: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/ZoeyHashemi"
+
+### Footer
+footer:
+  developer: "Developed by <strong>Zoey Hashemi</strong>"
+  copyright: "<strong>Zoey Hashemi</strong>. All rights reserved"
+
+### Portfolio Filters Settings
+portfolio:
+  layout: "list" # select works layout options: "Grid" or "List"
+  filters:
+    - name: "Graphic Design"
+      slug: "graphic-design"
+
+    - name: "Development"
+      slug: "development"
+
+    - name: "UI UX Design"
+      slug: "ui-ux-design"
+
+    - name: "Video Design"
+      slug: "video-design"
