@@ -1,0 +1,40 @@
+---
+# preview details
+layout: works-single
+title: Sinders Bridal House
+category: Video Design
+category_slug: video-design
+image: assets/img/works/Sinders.png
+short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+
+# full details
+live_preview: /#works-section
+full_image: assets/img/works/Sinders.png
+info:
+  - label: Year
+    value: 2024
+
+  - label: Technology
+    value: Premiere Pro, After Effects
+
+description1:
+  show: yes
+  title: Project Goal
+  text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
+  <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
+
+gallery:
+  - assets/img/works/work5.jpeg
+  - assets/img/blog/blog8.jpg
+  - assets/img/blog/blog6.jpg
+
+description2:
+  title: Project Result
+  text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
+  <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
+
+video:
+  poster: assets/img/works/Sinders.png
+  id: zi3OTdiluNA?si=8EoycnPdOD2Qy8iK
+
+---
