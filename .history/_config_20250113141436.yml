@@ -47,7 +47,7 @@ ui_text:
   send_message:         "Send Message"
   accept_terms:         "* Accept the terms and conditions."
   thanks_message:       "Thank you, your message has been sent successfully."
-  see-portfolio:        "/#works-section"
+  see-portfolio:        "{{ site.baseurl }}/#works-section"
 
 
 

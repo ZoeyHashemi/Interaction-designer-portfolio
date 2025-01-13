@@ -3,7 +3,7 @@ title: "Zoey Hashemi - Interactive Media Designer"
 description: "The portfolio of Zoey Hashemi, showcasing design, creativity, and interactive media projects."
 author: "Admin"
 baseurl: "/Interaction-designer-portfolio" # Base URL for the site when deployed
-url: "https://zoeyhashemi.github.io/" # Replace with your domain when deployed
+url: "" # Replace with your domain when deployed
 date_format: "%d %B %Y"
 # Social Links (replace these with your actual links)
 social_links:

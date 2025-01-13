@@ -36,7 +36,7 @@ ui_text:
   contact:              "Contact"
   works_subtitle:       "My <b>Projects</b>"
   works_bg_title:       "Portfolio"
-  see_project:          "View Project"
+  see_project:          "{{ site.baseurl }}View Project"
   full_name:            "Zoey Hashemi"
   your_full_name:       "Zoey Hashemi"
   email_address:        "hash0169@algonquinlive.com"
@@ -47,7 +47,7 @@ ui_text:
   send_message:         "Send Message"
   accept_terms:         "* Accept the terms and conditions."
   thanks_message:       "Thank you, your message has been sent successfully."
-  see-portfolio:        "/#works-section"
+  see-portfolio:        "{{ site.baseurl }}/#works-section"
 
 
 
